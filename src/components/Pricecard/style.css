@@ -1,0 +1,126 @@
+.price-card-parent-div {
+  margin: 40px;
+  width: 330px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 10px rgba(206, 192, 192, 0.6);
+}
+
+.heading-2 {
+  font-weight: normal;
+}
+.price-card-first-container {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 300px;
+  border-radius: 20px 20px 0 0;
+  height: 200px;
+}
+.offer-and-booked-container {
+  display: flex;
+  justify-content: space-around;
+}
+.offer-closed {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.booked-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  border: 5px solid red;
+  border-radius: 50%;
+  height: 80px;
+  flex-direction: column;
+}
+.hund-per-div {
+  font-size: 18px;
+  font-weight: bold;
+}
+.offer-closed-container {
+  margin: 0;
+}
+
+.weekly-container {
+  width: 120px;
+  height: 30px;
+  background-color: #155d9a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  font-size: 15px;
+}
+.practice-container {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.live-value-container {
+  margin: 10px;
+  font-size: 15px;
+}
+.academic-projects-container {
+  display: flex;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.academic-sub-container {
+  text-align: center;
+}
+.reffered-container {
+  font-size: 14px;
+  color: #4d72a5;
+  font-weight: bold;
+  margin: 13px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+.discounted-parent-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  /* justify-content: space-around; */
+}
+.discounted-price {
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-left: 20px; */
+  margin-right: 7px;
+}
+.save-percentage {
+  font-weight: bold;
+  color: #ce2825;
+  /* margin-left: 0px; */
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.total-price {
+  font-weight: bold;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.booked-button-container {
+  display: flex;
+  justify-content: center;
+}
+.booked-status-container {
+  background-color: #d3d3d3;
+  width: 220px;
+  height: 34px;
+  box-shadow: 0 1px 6px rgba(206, 192, 192, 0.5);
+  border-style: none;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.parent-container {
+  padding: 20px;
+}
+
+.offer-count-container > div {
+  text-align: center;
+}
